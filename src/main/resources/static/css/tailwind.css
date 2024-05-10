@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --moradoPrincipal: '#F8D4FF';
+    --texto: '#2E2E2E';
+    --textoSecundario: '#5C5C5C';
+    --moradoResaltar:'#2D0A33';
+}
+.border-textoSecundario {
+    border-color: var(--textoSecundario);
+}
+
+.border-moradoResaltar {
+    border-color: var(--moradoResaltar);
+}
+
+.focus\:moraPrincipal:focus {
+    border-color: var(--moradoPrincipal);
+    box-shadow: 0 0 0 2px var(--moradoPrincipal);
+}
